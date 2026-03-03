@@ -1,0 +1,32 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "jhol-jhal-879a1",
+          "appId": "1:965626965450:android:540e57a8c784c2d59cf333",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "jhol-jhal-879a1",
+          "configurations": {
+            "android": "1:965626965450:android:540e57a8c784c2d59cf333",
+            "ios": "1:965626965450:ios:a342090558e8a2de9cf333",
+            "macos": "1:965626965450:ios:a342090558e8a2de9cf333",
+            "web": "1:965626965450:web:e0cb0bc14e74fca39cf333",
+            "windows": "1:965626965450:web:25d8fd2dc717970b9cf333"
+          }
+        }
+      }
+    }
+  },
+  "firestore": [
+    {
+      "database": "jholjhalchatdb",
+      "rules": "firestore.rules",
+      "indexes": "firestore.indexes.json"
+    }
+  ]
+}

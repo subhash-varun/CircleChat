@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "965626965450",
+    "project_id": "jhol-jhal-879a1",
+    "storage_bucket": "jhol-jhal-879a1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965626965450:android:540e57a8c784c2d59cf333",
+        "android_client_info": {
+          "package_name": "com.any.jholjhal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965626965450-de5ksdsrrvlbcq16qrhtut8tmhbo8pus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg53gwFDw84LkGuEwww3_xvC9SonpOniE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965626965450-de5ksdsrrvlbcq16qrhtut8tmhbo8pus.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965626965450-4nejta9rkampac41mlncafd0sf14qfpo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chatApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

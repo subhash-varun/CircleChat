@@ -1,0 +1,21 @@
+server:
+  address: 0.0.0.0
+  port: 8080
+spring:
+  application:
+    name: push-backend
+
+firebase:
+  project-id: jhol-jhal-879a1
+  service-account-path: ${FIREBASE_SERVICE_ACCOUNT_PATH:}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    com.jholjhal.push: DEBUG
+    org.springframework.web: INFO
