@@ -40,15 +40,10 @@ The system uses **Flutter for the client**, **Firebase Firestore for real-time m
 ## 🏗 Architecture
 
 - Flutter App
-│
 - Firebase Authentication
-│
 - Firestore (Messages & Conversations)
-│
 - Spring Boot Backend
-│
 - Firebase Cloud Messaging
-│
 - Push Notifications
 
 
@@ -59,25 +54,25 @@ The system uses **Flutter for the client**, **Firebase Firestore for real-time m
 ### Conversations
 
 conversations/{conversationId}
-├─ customer_id
-├─ assigned_to
-├─ status
-├─ last_message
-├─ last_message_at
-├─ type
-├─ created_at
-└─ updated_at
+─ customer_id
+─ assigned_to
+─ status
+─ last_message
+─ last_message_at
+─ type
+─ created_at
+─ updated_at
 
 ### Messages
 
 messages/{messageId}
-├─ sender_type
-├─ sender_ref
-├─ client_message_id
-├─ text
-├─ attachments
-├─ created_at
-└─ customer_ref
+─ sender_type
+─ sender_ref
+─ client_message_id
+─ text
+─ attachments
+─ created_at
+─ customer_ref
 
 ---
 
