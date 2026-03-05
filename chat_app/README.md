@@ -1,9 +1,3 @@
-Here is a **complete, clean GitHub `README.md`** for your **Circle Chat** project with your **actual Firestore schema included** and **Subhash Varun as the author**.
-
-You can **copy-paste this directly into `README.md`**.
-
----
-
 ```markdown
 # Circle Chat 💬
 
