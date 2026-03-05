@@ -39,17 +39,17 @@ The system uses **Flutter for the client**, **Firebase Firestore for real-time m
 
 ## 🏗 Architecture
 
-Flutter App
+- Flutter App
 │
-Firebase Authentication
+- Firebase Authentication
 │
-Firestore (Messages & Conversations)
+- Firestore (Messages & Conversations)
 │
-Spring Boot Backend
+- Spring Boot Backend
 │
-Firebase Cloud Messaging
+- Firebase Cloud Messaging
 │
-Push Notifications
+- Push Notifications
 
 
 ---
